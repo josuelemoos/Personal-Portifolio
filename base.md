@@ -12,7 +12,7 @@ The site must keep working as a static HTML, CSS, and JavaScript project with no
 - Plain CSS in `styles.css`
 - Minimal inline JavaScript for theme switching
 - Google Fonts: `Inter` and `Roboto Mono`
-- Local profile image: `assets/profile-placeholder.svg`
+- Local profile image: `assets/profile-photo.jpg`
 
 ---
 
@@ -63,7 +63,7 @@ Border:     #303030
   - Email: `mailto:josuemesquita29@gmail.com`
   - GitHub: `https://github.com/josuelemoos`
   - LinkedIn: `https://linkedin.com/in/josué-lemos-mesquita-53a97434b`
-- Profile image/avatar: `assets/profile-placeholder.svg`
+- Profile image: `assets/profile-photo.jpg`
 - Fixed theme toggle button.
 
 ### About
@@ -128,4 +128,4 @@ Compact grouped text:
 - Use CSS variables for colors and states.
 - Preserve readability on both mobile and desktop.
 - External links must use `target="_blank"` and `rel="noreferrer"`.
-- If a real profile photo is added, only update the image `src` in the header.
+- Keep the public profile image stripped of EXIF/GPS metadata before committing.
